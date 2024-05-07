@@ -20,3 +20,53 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/* Sign-up Page Styles */
+.forms_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.forms_container img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.form {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px;
+  padding: 20px;
+  border: solid #feea79 1px;
+  padding: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form h1, .form h3 {
+  text-align: left;
+  color: #173e5e;
+  margin: 20px 0;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: solid #feea79 1px;
+}
+
+.form button {
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #004aad;
+  border: none;
+  border-radius: 5%;
+  text-align: center;
+  color: white;
+}
