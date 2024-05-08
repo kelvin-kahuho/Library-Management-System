@@ -23,6 +23,19 @@ public class HomeController : Controller
         return View();
     }
 
+    //Controller for register page
+    public IActionResult Register()
+    {
+        return View();
+    }
+
+    //Controller for homepage
+    public IActionResult Home()
+    {
+        return View();
+    }
+
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {

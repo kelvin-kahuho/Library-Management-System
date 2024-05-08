@@ -1,0 +1,40 @@
+@{
+    ViewData["Title"] = "register";
+}
+
+<div class="forms_container">
+
+    <form action="/login" method="post" class="form">
+            <div class="logo">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="~/images/logo.png" style="height: 90px; width:90px;" alt="">
+                </a>
+            </div>            
+            <h3>Sign Up</h3>
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name" required>
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone_number">Phone Number:</label>
+            <input type="tel" id="phone_number" name="phone_number" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <small>Password must meet the following requirements:</small>
+            <ul>
+                <li><small>At least 8 characters long</small></li>
+                <li><small>Contain both uppercase and lowercase letters</small></li>
+                <li><small>Include at least one digit</small></li>
+                <li><small>Contain at least one special character</small></li>
+                <li><small>Must not contain spaces</small></li>
+            </ul>
+            <label for="confirm_password">Confirm Password:</label>
+            <input type="password" id="confirm_password" name="confirm_password" required>
+            <button type="submit">Sign up</button>
+            <p>Do you have an account? 
+                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Login</a>
+            </p>
+    </form>
+
+</div>

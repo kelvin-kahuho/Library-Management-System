@@ -19,9 +19,14 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-image: url("/images/logo.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-blend-mode:luminosity;
 }
 
-/* Sign-up Page Styles */
+/* Login and Sign-up Page Styles */
 .forms_container {
   width: 100%;
   display: flex;
@@ -35,18 +40,19 @@ body {
   height: auto;
 }
 
+.forms_container video {
+  width: 80%;
+  height: auto;
+}
+
 .form {
   width: 100%;
   max-width: 400px;
   margin: 20px;
-  padding: 20px;
-  border: solid #feea79 1px;
-  padding: 50px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .form h1, .form h3 {
-  text-align: left;
+  text-align: center;
   color: #173e5e;
   margin: 20px 0;
 }
@@ -69,4 +75,30 @@ body {
   border-radius: 5%;
   text-align: center;
   color: white;
+}
+
+/* Books catalogue */
+.Books_Catalogue {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+}
+
+.book {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px; 
+}
+
+.book img {
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.book h3, .book p {
+  text-align: center; 
+}
+
+.book Button {
+  display: block;
+  margin: 0 auto;
 }

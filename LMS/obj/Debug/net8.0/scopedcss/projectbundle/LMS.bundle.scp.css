@@ -9,7 +9,7 @@ a.navbar-brand[b-jw6uifookt] {
 }
 
 a[b-jw6uifookt] {
-  color: #0077cc;
+  color:aqua;
 }
 
 .btn-primary[b-jw6uifookt] {
@@ -39,7 +39,10 @@ button.accept-policy[b-jw6uifookt] {
   font-size: 1rem;
   line-height: inherit;
 }
-
+.navbar[b-jw6uifookt] {
+  margin: 8%;
+  margin-top: 0;
+}
 .footer[b-jw6uifookt] {
   position: absolute;
   bottom: 0;

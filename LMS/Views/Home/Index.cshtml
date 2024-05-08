@@ -1,18 +1,19 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Login";
 }
 
   <div class="forms_container">
 
         <form action="/login" method="post" class="form">
-
+            <video class="video" src="~/videos/online-library_gif.mp4" autoplay loop muted></video>
+            <h3>Login</h3>
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
             <button type="submit">Login</button>
             <p>Don't have an account? 
-                <a href="#">Register</a>
+                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Register">Register</a>
             </p>
         </form>
 

@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/home/kelvin/Desktop/Library-Management-System/LMS/wwwroot/images/logo.png",
+      "PackagePath": "staticwebassets/images/logo.png"
+    },
+    {
+      "Id": "/home/kelvin/Desktop/Library-Management-System/LMS/wwwroot/images/the-red-planet.jpg",
+      "PackagePath": "staticwebassets/images/the-red-planet.jpg"
+    },
+    {
       "Id": "/home/kelvin/Desktop/Library-Management-System/LMS/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
@@ -243,6 +251,14 @@
     {
       "Id": "/home/kelvin/Desktop/Library-Management-System/LMS/wwwroot/lib/jquery/dist/jquery.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/home/kelvin/Desktop/Library-Management-System/LMS/wwwroot/videos/background_video.mp4",
+      "PackagePath": "staticwebassets/videos/background_video.mp4"
+    },
+    {
+      "Id": "/home/kelvin/Desktop/Library-Management-System/LMS/wwwroot/videos/online-library_gif.mp4",
+      "PackagePath": "staticwebassets/videos/online-library_gif.mp4"
     },
     {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.LMS.Microsoft.AspNetCore.StaticWebAssets.props",

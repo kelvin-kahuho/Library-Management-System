@@ -1,7 +1,23 @@
+//necessary using directives
+using LMS.Models;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using MySql.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+var configuration = builder.Configuration;
+
+string connectionString = configuration.GetConnectionString("DefaultConnection");
+
+builder.Services.AddDbContext<LMSContext>(options => options.UseSqlite(connectionString));
+
 
 var app = builder.Build();
 
